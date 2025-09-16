@@ -1,0 +1,15 @@
+[package]
+name = "aditi"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x4aed4b14f73857fbc27c5e10f2f80cde510871f1eace32f9db999b28b99c819c"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
